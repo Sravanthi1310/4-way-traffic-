@@ -1,0 +1,56 @@
+int Sravanthi Red=2;
+int Sravanthi Green=3;
+int Sravanthi Yellow=4;
+int Anjali Red=5;
+int Anjali Green=6;
+int Anjali Yellow=7;
+int Saicharan Red=8;
+int Saicharan Green=9;
+int Saicharan Yellow=10;
+int Yash Red=11;
+int Yash Green=12;
+int Yash Yellow=13;
+void setup(){
+pinMode(2, OUTPUT);
+pinMode(3, OUTPUT);
+pinMode(4, OUTPUT);
+pinMode(5, OUTPUT);
+pinMode(6, OUTPUT);
+pinMode(7, OUTPUT);
+pinMode(8, OUTPUT);
+pinMode(9, OUTPUT);
+pinMode(10, OUTPUT);
+pinMode(11.OUTPUT);
+pinMode(12, OUTPUT);
+pinMode(13, OUTPUT);
+}
+void loop(){
+digitalWrite(2,LOW);
+digitalWrite(3, HIGH);
+Delay(5000);-------------//North//
+digitalWrite(3,LOW);
+digitalWrite(4,HIGH);
+Delay(3000);
+digitalWrite(2, HIGH);
+digitalWrite(5,LOW);
+digitalWrite(6, HIGH);
+Delay(5000);----------------//East//
+digitalWrite(6,LOW);
+digitalWrite(7,HIGH);
+Delay(3000);
+digitalWrite(5, HIGH);
+diitalWrite(8,LOW);
+digitalWrite(9, HIGH);
+Delay(5000);----------------//West//
+digitalWrite(9,LOW);
+digitalWrite(10,HIGH);
+Delay(3000);
+digitalWrite(8,HIGH);
+diitalWrite(11,LOW);
+digitalWrite(12,HIGH);
+Delay(5000);----------------//South//
+digitalWrite(12,LOW);
+digitalWrite(13,HIGH);
+Delay(3000);
+digitalWrite(11,HIGH);
+}
